@@ -1,0 +1,18 @@
+[shell]
+# Start in WSL
+program = "wsl"
+# Go home
+args = ["--cd ~"]
+
+[font]
+# Use Hack Nerd Font for everything
+normal = { family = "Hack Nerd Font", style = "Regular" }
+bold = { family = "Hack Nerd Font", style = "Bold" }
+italic = { family = "Hack Nerd Font", style = "Italic" }
+bold_italic = { family = "Hack Nerd Font", style = "Bold Italic" }
+
+[window]
+# Add 5 pixels to left and right margin
+padding = { x = 5, y = 0 }
+# Start maximized
+startup_mode = "Maximized"
