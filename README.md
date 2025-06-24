@@ -36,6 +36,10 @@ Plugins needed: `zsh-autosuggestions` and `zsh-completions`:
 4. Copy `.zshrc` and `.zshenv` to `~/`.
 5. Add Zsh as the default shell with `sudo vi /etc/passwd` and `/usr/bin/zsh`.
 
+### Git
+
+Copy `.gitconfig` to `~/`.
+
 ### tmux
 
 Copy `.tmux.conf` to `~/`.
