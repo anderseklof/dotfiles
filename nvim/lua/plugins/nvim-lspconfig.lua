@@ -1,9 +1,10 @@
 return {
-	{
-		"neovim/nvim-lspconfig",
-		opts = {
-			inlay_hints = { enabled = false },
-			-- format = { timeout_ms = 5000 },
-		},
-	},
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      -- Disable inlay hints
+      inlay_hints = { enabled = false },
+      -- format = { timeout_ms = 5000 },
+    },
+  },
 }
