@@ -1,0 +1,17 @@
+[user]
+  name = anderseklof
+  email = 69395876+anderseklof@users.noreply.github.com
+
+[init]
+  defaultBranch = main
+
+[color]
+  ui = auto
+
+[core]
+  editor = nvim
+  pager = less -FRX
+  autocrlf = input
+
+[credential]
+  helper = cache
