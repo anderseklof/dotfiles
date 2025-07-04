@@ -1,8 +1,6 @@
-[shell]
-# Start in WSL
-program = "wsl"
-# Go home
-args = ["--cd ~"]
+[terminal]
+# Start in WSL and go home
+shell = { program = "wsl", args = ["--cd ~"] }
 
 [font]
 # Use Hack Nerd Font for everything
